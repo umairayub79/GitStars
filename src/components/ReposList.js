@@ -52,7 +52,7 @@ export default class RepoList extends Component {
 									alt={`Avatar for ${owner.login}`} />
 							</li>
 							<li>
-								<a href={html_url}>{name}</a>
+								<a href={html_url}>{name} > </a>
 							</li>
 							<li>@{owner.login}</li>
 							<li>{stargazers_count} stars</li>
