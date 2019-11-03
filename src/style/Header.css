@@ -1,0 +1,6 @@
+.heading{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
