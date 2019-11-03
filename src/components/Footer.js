@@ -5,6 +5,7 @@ export default class Footer extends Component {
         return (
             <div className="footer-div">
                 <p>Made by <a href="https//umair.codes">Umair Ayub</a></p>
+                <p>Built with React, Hosted on Netlify </p>
             </div>
         )
     }
