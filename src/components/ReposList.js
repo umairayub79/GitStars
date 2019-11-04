@@ -41,6 +41,7 @@ export default class RepoList extends Component {
       <ul className='popular-list'>
 			{items.map(({ name, stargazers_count, owner, html_url }, index) => {
 				return (
+          <a href={html_url}>
 					<li key={name} 
 						className='popular-item'>
 						<div className='popular-rank'>#{index + 1}</div>
@@ -58,6 +59,7 @@ export default class RepoList extends Component {
 							<li>{stargazers_count} stars</li>
 						</ul>
 					</li>
+          </a>
 				)
 			})}
 		</ul>
